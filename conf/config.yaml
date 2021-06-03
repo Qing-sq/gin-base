@@ -1,0 +1,10 @@
+
+mysql:
+    dsn: root:root@tcp(127.0.0.1:3306)/peng_shop?charset=utf8mb4&parseTime=True&loc=Local
+    max_open: 100
+    max_idle: 20
+redis:
+    host: ”127.0.0.1“
+    port: 16379
+    db: 0
+    poolSize: 100
